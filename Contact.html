@@ -1,61 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+
 <body class="back">
-<header class="head">
-    <table>
-        <tr>
-         <td><img id="logo" src="images/Logo.jpg" alt="Logo du site"></td>
-         <td class="pages">Films</td>
-         <td class="pages">Contact</td>
-         <td class="pages">À propos...</td>
-        </tr>
-    </table>
-</header> 
+    <header class="head">
+        <table>
+            <tr>
+                <td><img id="logo" src="images/Logo.jpg" alt="Logo du site"></td>
+                <td class="pages">Films</td>
+                <td class="pages">Contact</td>
+                <td class="pages">À propos...</td>
+            </tr>
+        </table>
+    </header>
 
-<fieldset class="square"> 
+    <fieldset class="square">
 
-    <label for="nom" class="titre">Nom: </label>
-    <input type="text" id="nom" name="nom" autofocus required>
+        <label for="nom" class="titre">Nom: </label>
+        <input type="text" id="nom" name="nom" autofocus required>
+        <br>
+        <label for="prénom" class="titre">Prénom: </label>
+        <input type="text" id="prénom" name="prénom" autofocus required>
+        <br>
+        <label for="Mail" class="titre">E-mail: </label>
+        <input type="email" id="Mail" name="Mail" autofocus required>
+        <br>
+        <label for="Tél" class="titre">Tél.: </label>
+        <input type="tel" id="Tél" name="Tél" autofocus required>
+        <br>
+        <label for="Âge" class="titre">Âge: </label>
+        <input type="number" id="Âge" name="Âge" min="18" max="100" required>
+
+    </fieldset>
+
     <br>
-    <label for="prénom" class="titre">Prénom: </label>
-    <input type="text" id="prénom" name="prénom" autofocus required>
+    <!--Suggestions de films-->
+
+    <h2 class="titre">Vous avez une idée de film que vous aimeriez voir?<br>Faites-le nous savoir ci-dessous:</h2>
+    <label for="Suggestions"></label>
+    <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
     <br>
-    <label for="Mail" class="titre">E-mail: </label>
-    <input type="email" id="Mail" name="Mail" autofocus required>
+    <label for="Suggestions"></label>
+    <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
     <br>
-    <label for="Tél" class="titre">Tél.: </label>
-    <input type="tel" id="Tél" name="Tél" autofocus required>
+    <label for="Suggestions"></label>
+    <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
     <br>
-    <label for="Âge" class="titre">Âge: </label>
-    <input type="number" id="Âge" name="Âge" min="18" max="100" required>
+    <label for="Suggestions"></label>
+    <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
+    <br>
+    <label for="Envoyer" class="titre"></label>
+    <input type="submit" value="PROPOSER UNE SUGGESTION" id="Envoyer" name="Envoyer" required>
 
-</fieldset>
 
-<br>
-<!--Suggestions de films-->
-
-<h2 class="titre">Vous avez une idée de film que vous aimeriez voir?<br>Faites-le nous savoir ci-dessous:</h2> 
- <label for="Suggestions"></label>
- <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
- <br>
- <label for="Suggestions"></label>
- <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
- <br>
- <label for="Suggestions"></label>
- <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
- <br>
- <label for="Suggestions"></label>
- <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
- <br>
-<label for="Envoyer" class="titre"></label>
-<input type="submit" value="PROPOSER UNE SUGGESTION" id="Envoyer" name="Envoyer" required>
-
-    
 </body>
+
 </html>

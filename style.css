@@ -35,9 +35,12 @@
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    
+    /*font-size: 30px;*/
+    padding-left: 18px;
 
 }
+
+
 
 .titre {
     color: #FFF;
@@ -66,11 +69,12 @@
     justify-content: flex-start;
    
 }
-#verticale-line {
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#vertical-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
     
     
     width: 1px;
@@ -79,3 +83,10 @@
     
     
   }
+.presentation{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    
+   
+}
