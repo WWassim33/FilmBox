@@ -31,10 +31,7 @@
     padding-left: 18px;
 }
 
-.titre {
-    color: #FFF;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 
 .text {
     color: white;
@@ -115,7 +112,7 @@
     align-items: flex-end;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -128,8 +125,9 @@
     font-size: 50px;
     font-weight: bold;
     font-family: 'Saira Condensed', sans-serif;
-   
+
 }
+
 .synopsis {
     display: flex;
     justify-content: flex-start;
@@ -138,9 +136,9 @@
     color: white;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    text-align: top;    
+    text-align: top;
     padding-left: 20px;
-   
+
 }
 
 .titre-reseau {
@@ -182,7 +180,7 @@
     padding-bottom: 60px;
 }
 
-#videotrailer{
+#videotrailer {
     padding-top: 100px;
     padding-right: 100px;
     display: flex;
@@ -191,19 +189,121 @@
     align-items: flex-end;
 }
 
-.infoFilm{
+.infoFilm {
     width: 400px;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     color: white;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     padding-left: 20px;
-   
+
 }
 
-#Genre{
+#Genre {
     padding-top: 20px;
 }
 
+.button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    margin: 5px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#buttonâge {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    margin: 5px;
+    color: black;
+    padding: 10px;
+}
+
+.input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    margin: 5px;
+    color: black;
+    padding: 10px;
+}
+
+.nom {
+    color: white;
+
+    width: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    width: fit-content;
+
+}
+
+.remplir {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.format {
+    padding: 5px;
+    margin: 10px;
+}
+
+.suggestions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+.FilmSuggestions {
+   
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
+
+#Proposition{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.send{
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 50px;
+}

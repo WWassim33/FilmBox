@@ -20,43 +20,52 @@
         </table>
     </header>
 
-    <fieldset class="square">
+    <main class="remplir">
+        <div class="format">
+            <fieldset class="square">
+                <legend class="nom">Informations Personnels</legend>
+                <label class="button" for="nom" class="titre">Nom: </label>
+                <input class="input" type="text" id="nom" name="nom" autofocus required>
+                <br>
+                <label class="button" for="prénom" class="titre">Prénom: </label>
+                <input class="input" type="text" id="prénom" name="prénom" autofocus required>
+                <br>
+                <label class="button" for="Mail" class="titre">E-mail: </label>
+                <input class="input" type="email" id="Mail" name="Mail" autofocus required>
+                <br>
+                <label class="button" for="Tél" class="titre">Tél.: </label>
+                <input class="input" type="tel" id="Tél" name="Tél" autofocus required>
+                <br>
+                <label class="button" for="Âge" class="titre">Âge: </label>
+                <input id="buttonâge" type="number" id="Âge" name="Âge" min="18" max="100" required>
 
-        <label for="nom" class="titre">Nom: </label>
-        <input type="text" id="nom" name="nom" autofocus required>
-        <br>
-        <label for="prénom" class="titre">Prénom: </label>
-        <input type="text" id="prénom" name="prénom" autofocus required>
-        <br>
-        <label for="Mail" class="titre">E-mail: </label>
-        <input type="email" id="Mail" name="Mail" autofocus required>
-        <br>
-        <label for="Tél" class="titre">Tél.: </label>
-        <input type="tel" id="Tél" name="Tél" autofocus required>
-        <br>
-        <label for="Âge" class="titre">Âge: </label>
-        <input type="number" id="Âge" name="Âge" min="18" max="100" required>
+            </fieldset>
+        </div>
+    </main>
 
-    </fieldset>
 
-    <br>
+
     <!--Suggestions de films-->
+    <div id="Proposition">
+        <h2 class="FilmSuggestions">Vous avez une idée de film que vous aimeriez voir?<br>Faites-le nous savoir ci-dessous:</h2>
+        <label for="Suggestions"></label>
+        <textarea  class="suggestions" name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
+        <br>
+        <label for="Suggestions"></label>
+        <textarea  class="suggestions" name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
+        <br>
+        <label for="Suggestions"></label>
+        <textarea  class="suggestions" name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
+        <br>
+        <label for="Suggestions"></label>
+        <textarea  class="suggestions" name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
+        <br>
+        <label  for="Envoyer"></label>
+        <input  class="send" type="submit" value="PROPOSER UNE SUGGESTION" id="Envoyer" name="Envoyer" required>
 
-    <h2 class="titre">Vous avez une idée de film que vous aimeriez voir?<br>Faites-le nous savoir ci-dessous:</h2>
-    <label for="Suggestions"></label>
-    <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
-    <br>
-    <label for="Suggestions"></label>
-    <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
-    <br>
-    <label for="Suggestions"></label>
-    <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
-    <br>
-    <label for="Suggestions"></label>
-    <textarea name="Suggestions" id="Suggestions" cols="100" rows="2" placeholder="écrivez ici..."></textarea>
-    <br>
-    <label for="Envoyer" class="titre"></label>
-    <input type="submit" value="PROPOSER UNE SUGGESTION" id="Envoyer" name="Envoyer" required>
+
+    </div>
+
 
 
 </body>
