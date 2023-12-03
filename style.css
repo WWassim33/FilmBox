@@ -14,8 +14,8 @@
 }
 
 .pages {
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 90px;
+    padding-left: 90px;
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 32px;
@@ -45,8 +45,10 @@
 
 #contenuTitre {
     color: #FFF;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
 }
 
 .centrer {
@@ -113,7 +115,7 @@
     align-items: flex-end;
 }
 
-#container{
+.container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -179,3 +181,29 @@
     font-weight: 100;
     padding-bottom: 60px;
 }
+
+#videotrailer{
+    padding-top: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.infoFilm{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding-left: 20px;
+   
+}
+
+#Genre{
+    padding-top: 20px;
+}
+
