@@ -2,13 +2,7 @@
     background-image: linear-gradient(grey, black 30%);
 }
 
-#fnaf {
-    color: #FFF;
-    font-family: 'Jomhuria', serif;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-top: 150px;
-}
+
 
 #logo {
     margin-left: 0px;
@@ -112,14 +106,39 @@
 
 .fnaf-banner {
     padding-left: 350px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#fnaf {
+    padding-left: 20px;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
+   
+}
 .synopsis {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
     color: white;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     text-align: top;    
-    padding-bottom: 50px;
+    padding-left: 20px;
+   
 }
 
 .titre-reseau {
