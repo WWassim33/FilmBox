@@ -1,11 +1,13 @@
 .back {
-    background-image: linear-gradient(grey, black 20%);
-
+    background-image: linear-gradient(grey, black 30%);
 }
 
 #fnaf {
     color: #FFF;
     font-family: 'Jomhuria', serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 150px;
 }
 
 #logo {
@@ -13,7 +15,7 @@
 }
 
 .head {
-    background-color: #000000D4;
+    background-color: black;
     margin-left: 0%;
 }
 
@@ -89,4 +91,72 @@
 .audio {
     padding-left: 575px;
     padding-top: 40px;
+}
+
+.title {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.main-title {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding-left: 40px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.fnaf-banner {
+    padding-left: 350px;
+}
+
+.synopsis {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: top;    
+    padding-bottom: 50px;
+}
+
+.titre-reseau {
+    padding-left: 450px;
+    padding-top: 50px;
+
+}
+
+.titre-compte {
+    padding-left: 300px;
+    padding-top: 55px;
+
+}
+
+.image-reseau {
+    padding-left: 465px;
+    padding-top: 20px;
+}
+
+.text-reseau {
+    color: lightgray;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    line-height: 28px;
+    padding-left: 10px;
+    text-align: left;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.text-compte {
+    color: lightgray;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding-left: 283px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 100;
+    padding-bottom: 60px;
 }
