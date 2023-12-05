@@ -101,12 +101,10 @@
 }
 
 .image {
-    border-radius: 35%;
+    border-radius: 24%;
     padding: 55px;
     padding-bottom: 20px;
     padding-top: 25px;
-    padding-left: 90px;
-    padding-right: 90px;
 }
 
 /*ligne separe categorie*/
@@ -116,7 +114,7 @@
 
 /*musique ambient*/
 .audio {
-    padding-left: 575px;
+    padding-left: 38%;
     padding-top: 40px;
 }
 
@@ -341,7 +339,7 @@
 
 /*Ligne qui separe nos paragraph*/
 .ligne-vert {
-    border-left: 6px;
+    border-left: 6%;
     height: 580px;
     position: absolute;
     left: 32%;
@@ -355,11 +353,6 @@
 .film-img {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
-
-
-
-
 
