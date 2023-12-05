@@ -345,3 +345,9 @@
     padding-left: 100px;
     padding-top: 50px;
 }
+
+.film-img {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
