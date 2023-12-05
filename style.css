@@ -4,9 +4,7 @@
 }
 
 /*logo filmbox*/
-#logo {
-    
-}
+#logo {}
 
 .head {
     background-color: black;
@@ -20,9 +18,15 @@
     font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 700;
+
     text-decoration-color: #FFF;
     background-color: transparent;
     text-decoration: none;
+    text-decoration-color: #FFF;
+
+    background-color: transparent;
+    text-decoration: none;
+
 }
 
 /*DA, nom, et role*/
@@ -97,10 +101,12 @@
 }
 
 .image {
-    border-radius: 75px;
+    border-radius: 35%;
     padding: 55px;
     padding-bottom: 20px;
     padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 /*ligne separe categorie*/
@@ -349,5 +355,6 @@
 .film-img {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
+    
 }
