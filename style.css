@@ -21,6 +21,8 @@
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
+    text-decoration: none;
+    
 }
 
 /*DA, nom, et role*/
@@ -307,11 +309,12 @@
 
     color: #FFF;
     font-family: 'Inter', sans-serif;
+    align-items: center;
 }
 
 #Proposition {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -334,4 +337,9 @@
     height: 620px;
     position: absolute;
     left: 35%;
+}
+
+.video {
+    padding-left: 100px;
+    padding-top: 50px;
 }
