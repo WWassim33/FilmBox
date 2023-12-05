@@ -105,8 +105,8 @@
     padding: 55px;
     padding-bottom: 20px;
     padding-top: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 /*ligne separe categorie*/
@@ -358,3 +358,6 @@
     justify-content: space-around;
     
 }
+
+
+
